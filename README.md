@@ -30,7 +30,32 @@ Part 2 of this test will require knowledge of:
 * Sass
 * HTML5
 * Responsive design
+* Angular firebase and observables
 
 `npm install; npm start;`
 
-I've completed part 1 for you, now you'll need to make the application do something.
+I've completed part 1 for you, now you'll need to make the application do something. Create a couple of components to list out the insights from the database as an observable. The firebase credentials are attached to the email.
+
+**Font:**
+`https://fonts.googleapis.com/css?family=Open+Sans:400,800`
+
+**Icons:**
+`https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css`
+
+**Images hosted externally:**
+`http://placehold.it/500x300/4D78BB/FFFFFF`
+
+**Brand color:**
+`#0B61BB`
+
+Don't worry too much about following the designs closely. Feel free to use some variables and a couple of mixins if you need.
+
+### Designs
+
+**Mobile**
+
+![Mobile Design](http://www.garethweaver.com/github/b30technical-mob.png "Mobile Design")
+
+**Desktop**
+
+![Desktop Design](http://www.garethweaver.com/github/b30technical-desktop.png "Desktop Design")
