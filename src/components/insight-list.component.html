@@ -1,1 +1,7 @@
-<h2>Insight List Component</h2>
+<div class="insight-list">
+  <h1>Insights</h1>
+  <insight-card
+    *ngFor="let insight of insights | async"
+    [insight]="insight">
+  </insight-card>
+</div>

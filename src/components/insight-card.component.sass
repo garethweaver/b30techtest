@@ -1,0 +1,46 @@
+@import '../assets/style/modules/base'
+
+.insight-card
+  background: white
+  border-radius: $border-radius
+  box-shadow: 0 2px 3px rgba(black, 0.1)
+  margin-bottom: 20px
+
+  h1
+    margin: 0
+
+  img
+    border-radius: $border-radius $border-radius 0 0
+    width: 100%
+
+  .insight-content
+    padding: $insight-padding
+    p
+      margin-bottom: 0
+
+  .insight-footer
+    font-size: 12px
+    border-top: 1px solid #efefef
+    ul
+      margin: 0
+      padding: 0
+      list-style: none
+      display: flex
+    li
+      padding: 10px $insight-padding
+      flex: 1 0 auto
+      text-align: center
+      border-right: 1px solid #efefef
+      &:last-child
+        border-right: none
+    a
+      text-decoration: none
+
+    .footer-text
+      display: none
+      margin-left: 5px
+      @include mobile-up(500px)
+        display: inline-block
+
+    .fa
+      font-size: 18px

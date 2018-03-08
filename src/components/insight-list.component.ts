@@ -10,8 +10,12 @@ import { Observable } from 'rxjs/Observable';
 
 export class InsightListComponent {
 
-  constructor() {
+  insights: Observable<any[]>;
 
+  constructor(
+    private db: AngularFirestore
+  ) {
+    this.insights = db.collection('insights').valueChanges();
   }
 
 }
